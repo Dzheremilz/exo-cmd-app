@@ -14,7 +14,7 @@ const reverseShowStars = (nbStars, char) => {
 
 // verifie qu'il n'y a que 2 arguments ou que le 3eme est bien l'option '-r'
 if (process.argv.length !== 4 && !(process.argv.length === 5 && process.argv[4] === '-r')) {
-  console.log('usage: node pyramid.js number char')
+  console.log('usage: node pyramid.js number char optionel:\'-r\'')
   process.exit(1)
 }
 
